@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>FreeCodeCamp Basejump - File Metadata Microservice</title>
+    </head>
+    <body>
+        <h1> API Basejump: File Metadata Microservice </h1>
+        
+        User stories:
+        <ol>
+            <li>I can submit a FormData object that includes a file upload.</li>
+            <li>When I submit something, I will receive the file size in bytes within the JSON response</li>
+        </ol>
+        
+        <h3>Submit a file to view its filesize.</h3>
+        <form action="/get-file-size" method="post" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="submit">
+        </form>
+        
+        <a href='https://github.com/jhuynh85/file-metadata'><h3>Github repo</h3></a>
+    </body>
+</html>
